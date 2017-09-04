@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        html,body{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            position: relative;
+            top:0;
+            width: 100%;
+            left: 0;
+
+        }
+        .center{
+            position: relative;
+            width: 100%;
+            top: 0;
+            left: 0;
+
+
+        }
+        a{
+            text-decoration: none;
+        }
+        .header-1{
+            position: absolute;
+            top: 20px;
+            left: 200px;
+            float: left;
+        }
+        .header-2{
+            position: absolute;
+            top: 20px;
+            left: 300px;
+            float: left;
+        }
+        .header-3{
+            position: absolute;
+            top: 20px;
+            left: 400px;
+            float: left;
+        }
+        .header-4{
+            position: absolute;
+            top: 20px;
+            left: 500px;
+            float: left;
+        }
+        .header-5{
+            position: absolute;
+            top: 20px;
+            left: 600px;
+            float: left;
+        }
+        .header-serach{
+            position: absolute;
+            top: 40px;
+            right: 1100px;
+            float: right;
+        }
+        .header-zhuce{
+            position: absolute;
+            border: 2px solid red;
+            top: 40px;
+            right: 1000px;
+            float: right;
+        }
+        .outer{
+            width: 100%;
+        }
+
+        .center-img-1{
+            width: 400px;
+            height: 250px;
+
+            position: absolute;
+            top: 30px ;
+            right: 380px;
+            float: right;
+        }
+        .center-img-1-2{
+            width: 80px;
+            height: 28px;
+            background: white;
+            opacity: 0.5;
+            position: absolute;
+            top: 80px;
+            right:280px;
+            float: right;
+        }
+        .center-img-1-3{
+            width: 50px;
+            height: 28px;
+            background: white;
+            opacity: 0.5;
+            position: absolute;
+            top: 80px;
+            right: 210px ;
+            float: right;
+        }
+        .center-img-1-4{
+            width: 40px;
+            height: 28px;
+            background: white;
+            opacity: 0.5;
+            position: absolute;
+            top: 80px;
+            right: 140px ;
+            float: right;
+        }
+        .center-word{
+            width: 250px;
+            height: 28px;
+            position: absolute;
+            top: 128px;
+            right: 130px ;
+        }
+        .center-img-shenqing{
+            width: 210px;
+            height: 40px;
+            position: absolute;
+            top: 160px;
+            right: 140px ;
+            background: red;
+            padding-bottom: 20px;
+            padding-left: 40px;
+        }
+        .center-1{
+            position: absolute;
+            top: 300px;
+            left: 0;
+            width: 100%;
+            height: 500px;
+
+        }
+        .center-1-remen{
+            position: absolute;
+            top: 0px;
+            left: 320px;
+            width: 200px;
+            height: 50px;
+
+        }
+        .center-1-remenY{
+            position: absolute;
+            top: 10px;
+            right: 220px;
+            width: 200px;
+            height: 50px;
+
+        }
+        .center-1-1{
+            width: 300px;
+            height: 400px;
+            float: left;
+            margin-top: 50px;
+            margin-left: 10px;
+            position: relative;
+            border: 1px solid grey;
+        }
+        .center-1-2{
+            width: 300px;
+            height: 400px;
+            float: left;
+            margin-top: 50px;
+            margin-left: 10px;
+            top: 0px;
+            position: relative;
+        }
+        .center-1-2-1{
+            position: absolute;
+            top: 150px;
+            right: 0;
+        }
+        .center-1-2-3{
+            position: absolute;
+            top: 150px;
+            left: 0;
+        }
+        .center-1-1-1>h3{
+            text-align: center;
+        }
+        .center-1-1-2{
+            position: absolute;
+            left: 60px;
+            top: 280px;
+            width: 60px;
+            height: 25px;
+            border: 1px solid red;
+        }
+        .center-1-1-3{
+            position: absolute;
+            left: 170px;
+            top: 280px;
+            width: 60px;
+            height: 25px;
+            border: 1px solid red;
+        }
+        .center-1-1-4{
+            position: absolute;
+            width: 100px;
+            height: 25px;
+            left: 110px;
+            top: 320px;
+
+        }
+        .center-1-1-5{
+            position: absolute;
+            width: 110px;
+            height: 25px;
+            left: 100px;
+            top: 345px;
+
+        }
+
+
+        .center-1-1-6>h3{
+            text-align: center;
+        }
+        .center-1-1-7{
+            position: absolute;
+            left: 60px;
+            top: 280px;
+            width: 60px;
+            height: 25px;
+            border: 1px solid green;
+        }
+        .center-1-1-8{
+            position: absolute;
+            left: 170px;
+            top: 280px;
+            width: 60px;
+            height: 25px;
+            border: 1px solid green;
+        }
+        .center-1-1-9{
+            position: absolute;
+            width: 100px;
+            height: 25px;
+            left: 110px;
+            top: 320px;
+
+        }
+        .center-1-1-10{
+            position: absolute;
+            width: 110px;
+            height: 25px;
+            left: 100px;
+            top: 345px;
+
+        }
+
+        .center-1-1-11>h3{
+            text-align: center;
+        }
+        .center-1-1-12{
+            position: absolute;
+            left: 60px;
+            top: 280px;
+            width: 60px;
+            height: 25px;
+            border: 1px solid green;
+        }
+        .center-1-1-13{
+            position: absolute;
+            left: 170px;
+            top: 280px;
+            width: 60px;
+            height: 25px;
+            border: 1px solid green;
+        }
+        .center-1-1-14{
+            position: absolute;
+            width: 100px;
+            height: 25px;
+            left: 110px;
+            top: 320px;
+
+        }
+        .center-1-1-15{
+            position: absolute;
+            width: 110px;
+            height: 25px;
+            left: 100px;
+            top: 345px;
+
+        }
+
+        .center-1-1-16>h3{
+            text-align: center;
+        }
+        .center-1-1-17{
+            position: absolute;
+            left: 60px;
+            top: 280px;
+            width: 60px;
+            height: 25px;
+            border: 1px solid green;
+        }
+        .center-1-1-18{
+            position: absolute;
+            left: 170px;
+            top: 280px;
+            width: 60px;
+            height: 25px;
+            border: 1px solid green;
+        }
+        .center-1-1-19{
+            position: absolute;
+            width: 100px;
+            height: 25px;
+            left: 110px;
+            top: 320px;
+
+        }
+        .center-1-1-20{
+            position: absolute;
+            width: 110px;
+            height: 25px;
+            left: 100px;
+            top: 345px;
+
+        }
+        .center-2{
+            width: 100%;
+            top: 800px;
+            height: 700px;
+            left: 0;
+            position: absolute;
+
+        }
+        .center-2-baogao{
+            position: absolute;
+            top: -10px;
+            left: 320px;
+            width: 200px;
+            height: 50px;
+
+
+        }
+        .center-2-baogaoY{
+            position: absolute;
+            top: -10px;
+            right: 220px;
+            width: 200px;
+            height: 50px;
+
+        }
+
+        .center-2-1{
+            margin-top: 40px;
+            margin-left:10px;
+            position: relative;
+            float: left;
+            width: 300px;
+            height: 300px;
+        }
+
+        .center-2-1-zuoxia{
+            position: absolute;
+            top: 250px;
+            left: 10px;
+            width: 80px;
+            height: 25px;
+
+        }
+        .center-2-1-youxia{
+            position: absolute;
+            top: 250px;
+            left: 230px;
+            width: 100px;
+            height: 25px;
+        }
+        .center-3{
+            position: absolute;
+            top: 1500px;
+            left: 0;
+            width: 100%;
+            height: 500px;
+
+        }
+        .center-3-daogou{
+            position: absolute;
+            top: -10px;
+            left: 320px;
+            width: 200px;
+            height: 50px;
+        }
+        .center-3-daogouY{
+            position: absolute;
+            top: -10px;
+            right: 220px;
+            width: 200px;
+            height: 50px;
+
+
+        }
+        .center-3-1{
+            margin-top: 40px;
+            margin-left:10px;
+            position: relative;
+            float: left;
+            width: 300px;
+            height: 300px;
+
+        }
+        .center-3-1-bootom{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+
+        }
+        .center-3-bootom{
+            position: relative;
+            float: left;
+            margin-bottom: 10px;
+            margin-left: 850px;
+            width: 200px;
+
+        }
+        .center-4{
+            position: absolute;
+            top: 1900px;
+            left: 0;
+            width: 100%;
+            height: 1400px;
+
+        }
+        .center-4-faxian{
+             position: absolute;
+             top: -10px;
+             left: 320px;
+             width: 200px;
+             height: 50px;
+
+         }
+        .center-4-faxianY{
+            position: absolute;
+            top: -10px;
+            right: 220px;
+            width: 200px;
+            height: 50px;
+
+
+        }
+        .center-4-1{
+            margin-top: 40px;
+            margin-left: 10px;
+            position: relative;
+            float: left;
+            width: 300px;
+            height: 300px;
+
+        }
+        .footer{
+            position: relative;
+            width: 100%;
+            background:dimgrey;
+            height: 500px;
+            top: 3000px;
+        }
+        .footer-1{
+            position: absolute;
+            width: 180px;
+            margin-top: 100px;
+            margin-left: 300px;
+            float: left;
+            height: 180px;
+
+        }
+        .footer-2{
+            position: absolute;
+            width: 200px;
+            margin-top: 100px;
+            float: left;
+            margin-left: 520px;
+            height: 300px;
+
+        }
+        .footer-3{
+            position: absolute;
+            width: 200px;
+            margin-top: 80px;
+            float: left;
+            margin-left: 760px;
+            height: 300px;
+
+        }
+        .footer-4{
+            position: absolute;
+            width: 200px;
+            margin-top: 80px;
+            float: left;
+            margin-left: 960px;
+            height: 300px;
+
+        }
+        .footer-5{
+             position: absolute;
+             width: 200px;
+             margin-top: 80px;
+             float: left;
+             margin-left: 1160px;
+             height: 300px;
+
+         }
+        .footer-6{
+            position: absolute;
+            width: 200px;
+            margin-top: 80px;
+            float: left;
+            margin-left: 1360px;
+            height: 300px;
+
+        }
+        .footer-bootem{
+            position: absolute;
+            width: 150px;
+            margin-top: 450px;
+            float: left;
+            margin-left: 930px;
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="header">
+            <img src="../jiguo1/logonew.png" style="width: 150px;height: 80px">
+            <div class="header-1">
+                <a href=""><h2>首页</h2></a>
+            </div>
+            <div class="header-2">
+                <a href=""><h2>酷玩</h2></a>
+            </div>
+            <div class="header-3">
+                <a href=""><h2>导购</h2></a>
+            </div>
+            <div class="header-4">
+                <a href=""><h2>试用</h2></a>
+            </div>
+            <div class="header-5">
+                <a href=""><h2>报告</h2></a>
+            </div>
+            <div class="header-serach">
+                <a href="">
+                    <img src="jiguo1/search.png">
+                </a>
+            </div>
+            <div class="header-zhuce">
+                <a href="" style="color: red">&nbsp&nbsp注&nbsp&nbsp册&nbsp&nbsp</a>
+            </div>
+        </div>
+        <div class="center">
+            <div class="center-img">
+                <img src="jiguo1/original.jpg">
+                <div class="center-img-1">
+                    <h1 style="color: white">幻想小贝HIFI2.1音响</h1>
+                    <div class="center-img-1-2">
+                        <a>126人申请</a>
+                    </div>
+                    <div class="center-img-1-3">
+                        <a>$599</a>
+                    </div>
+                    <div class="center-img-1-4">
+                        <a>20台</a>
+                    </div>
+                    <div class="center-word">
+                        <a style="color: white">申请时间剩余:13天5小时37分钟</a>
+                    </div>
+                    <div class="center-img-shenqing">
+                        <h2 style="color: white">立即申请</h2>
+                    </div>
+            </div>
+        </div>
+            <div class="center-1">
+                <div class="center-1-2">
+                    <div class="center-1-2-1">
+                        <img src="jiguo1/prev.png" >
+                    </div>
+                </div>
+                <div class="center-1-1 ">
+                    <img src="jiguo1/hot9.jpg" style="width: 300px">
+                    <div class="center-1-1-1">
+                        <h3>巴慕达 The Toaster 烤面包<br>机</h3>
+                    </div>
+                    <div class="center-1-1-2">
+                        <a style="color: red">￥512</a>
+                    </div>
+                    <div class="center-1-1-3">
+                        <a style="color: red">20台</a>
+                    </div>
+                    <div class="center-1-1-4" >
+                        <a style="color: red">1392</a>
+                        <a>申请</a>
+                    </div>
+                    <div class="center-1-1-5" >
+                        <a style="color: red">剩余时间2天</a>
+                    </div>
+                </div>
+                <div class="center-1-1">
+                    <img src="jiguo1/hot10.jpg" style="width: 300px">
+                    <div class="center-1-1-6">
+                        <h3>Osprey小鹰户外运动专业腰<br>包</h3>
+                    </div>
+                    <div class="center-1-1-7">
+                        <a style="color: green">￥512</a>
+                    </div>
+                    <div class="center-1-1-8">
+                        <a style="color: green">20台</a>
+                    </div>
+                    <div class="center-1-1-9" >
+                        <a style="color: red">1392</a>
+                        <a>申请</a>
+                    </div>
+                    <div class="center-1-1-10" >
+                        <a style="color: green">查看试用名单</a>
+                    </div>
+                </div>
+                <div class="center-1-1">
+                    <img src="jiguo1/hot11.jpg" style="width: 300px">
+                    <div class="center-1-1-11">
+                    <h3>Liquid Image 338 运动摄像眼镜</h3>
+                </div>
+                    <div class="center-1-1-12">
+                        <a style="color: red">￥512</a>
+                    </div>
+                    <div class="center-1-1-13">
+                        <a style="color: red">20台</a>
+                    </div>
+                    <div class="center-1-1-14" >
+                        <a style="color: red">1392</a>
+                        <a>申请</a>
+                    </div>
+                    <div class="center-1-1-15" >
+                        <a style="color: red">剩余时间2天</a>
+                    </div>
+                </div>
+                <div class="center-1-1">
+                    <img src="jiguo1/hot12.jpg" style="width: 300px">
+                    <div class="center-1-1-16">
+                        <h3>巴慕达 The Toaster 烤面包<br>机</h3>
+                    </div>
+                    <div class="center-1-1-17">
+                        <a style="color: red">￥512</a>
+                    </div>
+                    <div class="center-1-1-18">
+                        <a style="color: red">20台</a>
+                    </div>
+                    <div class="center-1-1-19" >
+                        <a style="color: red">1392</a>
+                        <a>申请</a>
+                    </div>
+                    <div class="center-1-1-20" >
+                        <a style="color: red">剩余时间2天</a>
+                    </div>
+                </div>
+                <div class="center-1-2">
+                    <div class="center-1-2-3">
+                        <img src="jiguo1/next.png" >
+                    </div>
+                </div>
+                <div class="center-1-remen">
+                        <h2>热门试用</h2>
+                </div>
+                <div class="center-1-remenY">
+                    <h4 style="color: red">查看更多</h4>
+                </div>
+            </div>
+            <div class="center-2">
+                <div class="center-2-baogao">
+                    <h2>报告精选</h2>
+                </div>
+                <div class="center-2-baogaoY">
+                    <h4 style="color: red">查看更多</h4>
+                </div>
+                <div class="center-2-1">
+                    <div class="center-2-1-d"></div>
+                </div>
+                <div class="center-2-1">
+                    <div class="center-2-1-img1" >
+                        <img src="jiguo1/bg1.jpg" style="width: 300px" height="160px">
+                    </div>
+                    <a >空气进化器里面学问多的惊呆，你选对了吗？</a>
+                    <div class="center-2-1-zuoxia">
+                            <a>●苏苏</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-2-1">
+                    <div class="center-2-1-img3">
+                        <img src="jiguo1/bg3.jpg" style="width: 300px" height="160px">
+                    </div>
+                    <a >怎么骑都不会累的智能自行车：云马 C1试骑体验</a>
+                    <div class="center-2-1-zuoxia">
+                        <a>●好吗</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="../jiguo/jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-2-1">
+                    <div class="center-2-1-img3">
+                        <img src="jiguo/bg4.jpg" style="width: 300px" height="160px">
+                    </div>
+                    <a >声音不是最优秀，但它形音完美的结合，足够打动人心</a>
+                    <div class="center-2-1-zuoxia">
+                        <a>●苏苏</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-2-1">
+                    <div class="center-2-1-img3">
+                        <img src="jiguo1/bg1.jpg" style="width: 300px" height="160px">
+                    </div>
+                    <a >空气进化器里面学问多的惊呆，你选对了吗？</a>
+                    <div class="center-2-1-zuoxia">
+                        <a>●苏苏</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="center-2-1"></div>
+                <div class="center-2-1"></div>
+                <div class="center-2-1">
+                    <div class="center-2-1-img3">
+                        <img src="jiguo1/bg3.jpg" style="width: 300px" height="160px">
+                    </div>
+                    <a >怎么骑都不会累的智能自行车：云马 C1试骑体验</a>
+                    <div class="center-2-1-zuoxia">
+                        <a>●苏苏</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-2-1">
+
+                    <div class="center-2-1-img3">
+                        <img src="jiguo1/bg4.jpg" style="width: 300px" height="160px">
+                    </div>
+                    <a >声音不是最优秀，但它形音完美的结合，足够打动人心</a>
+                    <div class="center-2-1-zuoxia">
+                        <a>●苏苏</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="center-2-1">
+
+
+                    <div class="center-2-1-img3">
+                        <img src="jiguo1/bg1.jpg" style="width: 300px" height="160px">
+                    </div>
+                    <a >空气进化器里面学问多的惊呆，你选对了吗？</a>
+                    <div class="center-2-1-zuoxia">
+                        <a>●苏苏</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="center-2-1">
+                    <div class="center-2-1-img3">
+                        <img src="jiguo1/bg3.jpg" style="width: 300px" height="160px">
+                    </div>
+                    <a >怎么骑都不会累的智能自行车：云马 C1试骑体验</a>
+                    <div class="center-2-1-zuoxia">
+                        <a>●苏苏</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center-3">
+                <div class="center-3-daogou">
+                    <h2>导购精选</h2>
+                </div>
+                <div class="center-3-daogouY">
+                    <h4 style="color: red">查看更多</h4>
+                </div>
+                <div class="center-3-1"></div>
+
+                <div class="center-3-1">
+                    <div class="center-3-1-img">
+                        <img src="jiguo1/g1.jpg" style="width: 300px">
+                    </div>
+                    <a>花万元把蜗居秒变“豪宅”？这12件家具就能帮你办到</a>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+                    <div class="center-3-1-bootom">
+                        <img src="jiguo1/listbg.jpg" style="width: 300px;height: 10px">
+                    </div>
+                </div>
+                <div class="center-3-1">
+                    <div class="center-3-1-img">
+                        <img src="jiguo1/g2.jpg" style="width: 300px">
+                    </div>
+                    <a>到底有没有完美的iPhone手机配件，答案都在这里</a>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+                    <div class="center-3-1-bootom">
+                        <img src="jiguo1/listbg.jpg" style="width: 300px;height: 10px">
+                    </div>
+
+                </div>
+                <div class="center-3-1">
+                    <div class="center-3-1-img">
+                        <img src="jiguo1/g3.jpg" style="width: 300px">
+                    </div>
+                    <a>2016，这8支钢笔够你装逼一整年</a>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+                    <div class="center-3-1-bootom">
+                        <img src="jiguo1/listbg.jpg" style="width: 300px;height: 10px">
+                    </div>
+                </div>
+                <div class="center-3-1">
+
+                    <div class="center-3-1-img">
+                        <img src="jiguo1/g4.jpg" style="width: 300px">
+                    </div>
+                    <a>他用12年找一把完美 剃须刀，给你2万字终极购买指南</a>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+                    <div class="center-3-1-bootom">
+                        <img src="jiguo1/listbg.jpg" style="width: 300px;height: 10px">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="center-4">
+                <div class="center-4-faxian">
+                    <h2>发现酷玩</h2>
+                </div>
+                <div class="center-4-faxianY">
+                    <h4 style="color:red">查看更多</h4>
+                </div>
+                <div class="center-4-1"></div>
+                
+                <div class="center-4-1">
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k1.jpg" style="width: 300px;height: 178px">
+                    </div>
+                    <a >SCiO 微型光谱仪
+                        可以测定食物成分及营养</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">￥1212</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-4-1">
+
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k2.jpg" style="width: 300px">
+                    </div>
+                    <a >B&O BeoSound 35 音响
+                        支持所有音乐流媒体服务</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">¥ 5123</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="center-4-1">
+
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k3.jpg" style="width: 300px">
+                    </div>
+                    <a >Mozbii 触控吸色笔
+                        能吸取65000种颜色</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">¥暂无</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="center-4-1">
+
+
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k4.jpg" style="width: 300px">
+                    </div>
+                    <a >XPLORER 2 航拍飞行器
+                        搭载自动避障系统</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">¥4333</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-4-1"></div>
+                <div class="center-4-1"></div>
+                <div class="center-4-1">
+
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k1.jpg" style="width: 300px;height: 178px">
+                    </div>
+                    <a >SCiO 微型光谱仪
+                        可以测定食物成分及营养</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">￥1212</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="center-4-1">
+
+
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k2.jpg" style="width: 300px">
+                    </div>
+                    <a >B&O BeoSound 35 音响
+                        支持所有音乐流媒体服务</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">¥ 5123</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="center-4-1">
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k3.jpg" style="width: 300px">
+                    </div>
+                    <a >Mozbii 触控吸色笔
+                        能吸取65000种颜色</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">¥暂无</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="center-4-1">
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k4.jpg" style="width: 300px">
+                    </div>
+                    <a >XPLORER 2 航拍飞行器
+                        搭载自动避障系统</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">¥4333</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-4-1"></div>
+                <div class="center-4-1"></div>
+                <div class="center-4-1">
+
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k1.jpg" style="width: 300px;height: 178px">
+                    </div>
+                    <a >SCiO 微型光谱仪
+                        可以测定食物成分及营养</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">￥1212</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="center-4-1">
+
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k2.jpg" style="width: 300px">
+                    </div>
+                    <a >B&O BeoSound 35 音响
+                        支持所有音乐流媒体服务</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">¥ 5123</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="center-4-1">
+
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k3.jpg" style="width: 300px">
+                    </div>
+                    <a >Mozbii 触控吸色笔
+                        能吸取65000种颜色</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">¥暂无</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="center-4-1">
+
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k4.jpg" style="width: 300px">
+                    </div>
+                    <a >XPLORER 2 航拍飞行器
+                        搭载自动避障系统</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">¥4333</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="center-4-1"></div>
+                <div class="center-4-1"></div>
+                <div class="center-4-1">
+
+
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k1.jpg" style="width: 300px;height: 178px">
+                    </div>
+                    <a >SCiO 微型光谱仪
+                        可以测定食物成分及营养</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">￥1212</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="center-4-1">
+
+
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k2.jpg" style="width: 300px">
+                    </div>
+                    <a >B&O BeoSound 35 音响
+                        支持所有音乐流媒体服务</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">¥ 5123</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="center-4-1">
+
+
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k3.jpg" style="width: 300px">
+                    </div>
+                    <a >Mozbii 触控吸色笔
+                        能吸取65000种颜色</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">¥暂无</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="center-4-1">
+
+
+                    <div class="center-4-1-img">
+                        <img src="jiguo1/k4.jpg" style="width: 300px">
+                    </div>
+                    <a >XPLORER 2 航拍飞行器
+                        搭载自动避障系统</a>
+                    <div class="center-2-1-zuoxia">
+                        <a style="color: red">¥4333</a>
+                    </div>
+                    <div class="center-2-1-youxia">
+                        <div class="center-2-1-img2">
+                            <img src="jiguo1/zan.png" style="height: 20px;width: 20px"><a style="color: grey">3</a>
+                            <img src="jiguo1/reply.png" style="height: 20px;width: 20px"><a style="color: grey">2</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            <div class="center-3-bootom">
+                <img src="jiguo1/more.png" style="width: 20px;height: 12px">
+                <a style="color: red">点击加载更多</a>
+            </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-1">
+                <img src="jiguo1/code.png">
+            </div>
+            <div class="footer-2">
+                <img src="jiguo1/logoImg.jpg" style="width: 200px">
+                <br>
+                <br>
+                <a style="color: white">全球酷玩试用导购平台&nbsp&nbsp酷.新奇.好玩.品质</a>
+                <br>
+                <br>
+                <a style="color: white">微信添加&nbsp"jguojguo"</a>
+                <br>
+                <a style="color: white">获取我们的服务</a>
+            </div>
+            <div class="footer-3">
+                <a style="color: white" ><h3>免费试用</h3></a>
+                <a style="color: white">试用流程</a>
+                <br>
+                <a style="color: white">如何提高成功率</a>
+            </div>
+            <div class="footer-4">
+                <a style="color: white" ><h3>友情链接</h3></a>
+                <a style="color: white">智东西&nbsp&nbsp&nbsp&nbspWEIBUSI</a>
+                <br>
+                <a style="color: white">搜狐IT&nbsp&nbsp&nbsp&nbsp腾讯科技</a>
+                <br>
+                <a style="color: white">搜狐数码&nbsp&nbsp&nbsp&nbsp凤凰科技</a>
+                <br>
+                <a style="color: white">凤凰数码&nbsp&nbsp&nbsp&nbspPconline</a>
+                <br>
+                <a style="color: white">泡泡网&nbsp&nbsp&nbsp&nbsp3W咖啡</a>
+                <br>
+                <a style="color: white">ZUK社区&nbsp&nbsp&nbsp&nbsp亿觅emie</a>
+                <br>
+                <a style="color: white">极客公园&nbsp&nbsp&nbsp&nbsp易讯易启玩</a>
+                <br>
+                <a style="color: white">果库</a>
+            </div>
+            <div class="footer-5">
+                <a style="color: white" ><h3>购买攻略</h3></a>
+                <a style="color: white">美亚海淘教程</a>
+                <br>
+                <a style="color: white">日亚海淘教程</a>
+                <br>
+                <a style="color: white">海淘转运攻略</a>
+                <br>
+                <a style="color: white">kickstarter&nbsp众筹购买攻略</a>
+                <br>
+                <a style="color: white">indiegogo&nbsp众筹购买攻略</a>
+
+            </div>
+            <div class="footer-6">
+                <a style="color: white" ><h3>厂商合作</h3></a>
+                <a style="color: white">关于极果</a>
+                <br>
+                <a style="color: white">联系我们</a>
+                <br>
+                <a style="color: white">商务合作:&nbspBD@jiguo.com</a>
+                <br>
+                <a style="color: white">CEO邮箱:&nbspCEO@jiguo.com</a>
+            </div>
+            <div class="footer-bootem">
+                <a style="color: white">C2016极果版权所有</a>
+            </div>
+        </div>
+        </div>
+
+</body>
+</html>
